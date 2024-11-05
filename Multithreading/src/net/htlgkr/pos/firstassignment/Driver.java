@@ -1,4 +1,4 @@
-package net.htlgkr.pos;
+package net.htlgkr.pos.firstassignment;
 
 import java.util.Objects;
 
@@ -27,15 +27,15 @@ public class Driver {
 
     public void drive() {
 
-        long startTime = System.currentTimeMillis();
-
         for (int i = 0; i < penalties; i++) {
             for (int j = 0; j <= 1000000; j++) {
 
             }
         }
 
-        lapTime = System.currentTimeMillis() - startTime;
+        lapTime = System.currentTimeMillis();
+
+        System.out.println(this);
     }
 
     @Override
